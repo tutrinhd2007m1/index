@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0; padding: 0; font-family: montserrat; font-size: 12pt; overflow-y: hidden; overflow-x: hidden; scroll-behavior: smooth;
+}
+@font-face
+{
+	font-family: newyork;
+	src: url(../font/NewYork PERSONAL USE.otf);
+}
+.container
+{
+	width: 9600px; height: 900px; float: left; 
+}
+/*trang 1*/
+.homepage
+{
+	width: 1600px; height: 900px; float: left; background-image: url(../images/123456.jpg); background-size: 1600px;
+}
+
+.menu
+{
+	width: 800px; height: 130px; background-color: none; float: left; position: fixed;
+}
+
+.menu ul { list-style: none; }
+
+.menu ul li a 
+{
+	text-decoration: none; color: black;
+	float: left; margin-left: 120px; padding-top: 40px; padding-bottom: 20px;
+}
+
+.menu ul li:hover a { border-bottom: 5px solid #bf9add;}
+
+.logo_menu
+{
+	width: 800px; height: 130px; float: right; 
+}
+
+.homepage_big { width: 1600px; height: 770px; float: left;}
+
+.homepage_a1 { width: 800px; height: 500px; background-color: none; float: left}
+
+.homepage_a1 img { position: relative; z-index: 1}
+.homepage_a1 font { position: absolute; z-index: 2} 
+
+
+
+.homepage_a2 { width: 800px; height: 770px; float: left}
+
+.homepage_a21 {width: 400px; height: 770px; float: left}
+.homepage_a21 img {animation: pulse 4s infinite;}
+
+
+
+.homepage_a22 {width: 400px; height: 770px; float: left}
+.homepage_a22 img {animation: pulse 4s infinite;}
+
+.homepage_a3 { width: 800px; height: 270px; float: left}
+
+
+
+
+
+/*trang 2*/
+.portfolio
+{
+	width: 1600px; height: 900px; float: left;
+}
+
+.portfolio_big
+{
+	width: 1600px; height: 770px; margin-top: 130px;
+}
+
+.portfolio_one
+{
+	width: 800px; height: 770px; float: left; 
+}
+
+.portfolio_one button
+{
+	width: 150px; height: 50px; background-color: transparent; 
+	border: solid #bf9add; 
+}
+
+.portfolio_one button a
+{ text-decoration: none; color: black; }
+
+.portfolio_one button a:hover
+{ color: #51197e; }
+
+.portfolio_one a i
+{
+	text-decoration: none; color: black;
+}
+
+.portfolio_two
+{
+	width: 800px; height: 770px; float: left;
+}
+
+
+/*trang 3*/
+.idol
+{
+	width: 1600px; height: 900px; float: left;
+}
+.idol_a 
+{ 
+	width: 800px; height: 900px; float: left;
+}
+
+.idol_b { width: 800px; height: 770px; float: left; }
+
+.idol_b1 { width: 350px; height: 330px; float: left; }
+.idol_b1 img  
+{
+	opcaity:0;
+	animation: pulse 4s infinite;
+}
+
+.idol_b2 { width: 450px; height: 330px; float: left; }
+
+.idol_b3 { width: 350px; height: 440px; float: left; }
+
+.idol_b4 { width: 450px; height: 440px; float: left; }
+.idol_b4 img  
+{
+	opcaity:0;
+	animation: pulse 4s infinite;
+}
+
+
+/*trang 4*/
+.model
+{
+	width: 1600px; height: 900px; float: left; 
+}
+
+.model_big
+{ width: 1600px; height: 770px; margin-top: 130px; }
+
+.model_a { width: 1600px; height: 100px; background-color: none; float: left; }
+
+.model_a p
+{ margin-top: 5px; }
+
+.model_b 
+{ 
+	width: 530px; height: 670px; background-color: none; float: left; 
+}
+
+.model_c 
+{ 
+	width: 530px; height: 670px; background-color: none; float: left;  
+}
+
+.model_c p { margin-left: 80px; margin-top: 40px;}
+
+.model_c a i
+{
+	text-decoration: none; color: black;
+}
+
+.model_d 
+{ 
+	width: 530px; height: 670px; background-color: none; float: left;
+}
+
+
+/*trang 5*/
+.actress
+{
+	width: 1600px; height: 900px; float: left; 
+}
+
+.actress_big
+{width: 1600px; height: 770px; margin-top: 130px;}
+
+.actress_a
+{
+	width: 700px; height: 770px; float:left;
+}
+
+.actress_a img { margin-left: 160px;}
+
+.actress_b
+{
+	width: 900px; height: 770px; float:left;
+}
+
+.actress_b1
+{ width: 900px; height: 250px; float:left;}
+
+.actress_b2
+{ width: 480px; height: 520px; float:left; background-color: none; }
+
+
+.actress_b2 i a {overflow-x: scroll; scroll-behavior: smooth; text-decoration: none; color: black;}
+
+.actress_b3
+{ width: 420px; height: 520px; float:left; background-color: none;}
+
+.actress_b3 img { margin-left: 0; margin-top: 30px;animation: pulse 3s infinite;}
+
+
+/*trang 6*/
+.contact
+{
+	width: 1600px; height: 900px; float: left;
+}
+
+.contact_big
+{
+	width: 1600px; height: 770px; float: left;
+}
+
+.contact_a {width: 1600px; height: 120px; float: left}
+
+.contact_b {width: 800px; height: 650px; float: left}
+
+.contact_b table { margin-left: 320px; margin-top: 20px;border-spacing: 10px}
+
+.contact_b table input { height: 30px; width: 400px;}
+
+.contact_b input[type=submit]
+{
+	background-color: black; color: white; height: 40px; margin-left: 150px;
+}
+
+.contact_c {width: 800px; height: 650px; float: left}
